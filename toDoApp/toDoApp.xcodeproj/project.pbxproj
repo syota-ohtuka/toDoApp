@@ -15,6 +15,7 @@
 		A0BA9B821EB1D2A80046E786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BA9B801EB1D2A80046E786 /* LaunchScreen.storyboard */; };
 		A0BA9B8D1EB1D2A80046E786 /* toDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BA9B8C1EB1D2A80046E786 /* toDoAppTests.swift */; };
 		A0BA9B981EB1D2A80046E786 /* toDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BA9B971EB1D2A80046E786 /* toDoAppUITests.swift */; };
+		A0BA9BA61EB1FEAB0046E786 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BA9BA51EB1FEAB0046E786 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A0BA9B931EB1D2A80046E786 /* toDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BA9B971EB1D2A80046E786 /* toDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoAppUITests.swift; sourceTree = "<group>"; };
 		A0BA9B991EB1D2A80046E786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BA9BA51EB1FEAB0046E786 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A0BA9B801EB1D2A80046E786 /* LaunchScreen.storyboard */,
 				A0BA9B831EB1D2A80046E786 /* Info.plist */,
 				A0BA9B7B1EB1D2A80046E786 /* toDoApp.xcdatamodeld */,
+				A0BA9BA51EB1FEAB0046E786 /* ModalViewController.swift */,
 			);
 			path = toDoApp;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					A0BA9B701EB1D2A80046E786 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2T7B96HZKT;
 						ProvisioningStyle = Automatic;
 					};
 					A0BA9B871EB1D2A80046E786 = {
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BA9BA61EB1FEAB0046E786 /* ModalViewController.swift in Sources */,
 				A0BA9B771EB1D2A80046E786 /* ViewController.swift in Sources */,
 				A0BA9B7D1EB1D2A80046E786 /* toDoApp.xcdatamodeld in Sources */,
 				A0BA9B751EB1D2A80046E786 /* AppDelegate.swift in Sources */,
@@ -414,6 +419,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2T7B96HZKT;
 				INFOPLIST_FILE = toDoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syotaohtuka.toDoApp;
@@ -426,6 +433,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2T7B96HZKT;
 				INFOPLIST_FILE = toDoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syotaohtuka.toDoApp;
@@ -507,6 +516,7 @@
 				A0BA9B9E1EB1D2A80046E786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0BA9B9F1EB1D2A80046E786 /* Build configuration list for PBXNativeTarget "toDoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +525,7 @@
 				A0BA9BA11EB1D2A80046E786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0BA9BA21EB1D2A80046E786 /* Build configuration list for PBXNativeTarget "toDoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +534,7 @@
 				A0BA9BA41EB1D2A80046E786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
